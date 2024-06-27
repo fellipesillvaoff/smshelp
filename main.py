@@ -3,7 +3,7 @@ from twilio.rest import Client
 def notificar(usuario):
     # Configuração do Twilio
     account_sid = 'ACa7f05d5b0c96f031ee4897724da93d40'
-    auth_token = '5796b224e9e9d121ef5e85b0f0b45916'
+    auth_token = 'XXXXX'
     messaging_service_sid = 'MG13690eb74ab9c9e251bb119aa66ceb0a'
     whatsapp_number = 'whatsapp:+556136863228'
     client = Client(account_sid, auth_token)
